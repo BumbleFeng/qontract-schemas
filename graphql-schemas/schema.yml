@@ -1755,6 +1755,7 @@ confs:
   - { name: variables, type: json }
   - { name: enable_query_support, type: boolean }
   - { name: tests, type: string, isList: true, isResource: true }
+  - { name: promtool_version, type: string }
 
 - name: NamespaceExternalResource_v1
   isInterface: true
